@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/gridview_item_horizontal_margin"
+        android:paddingRight="@dimen/gridview_item_horizontal_margin"
+        android:background="#FFFF0000"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/gridview_item_horizontal_margin"
+        android:paddingRight="@dimen/gridview_item_horizontal_margin"
+        android:background="#FFFF8000"/>
+
+    <TextView
+        android:id="@+id/humidity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/gridview_item_horizontal_margin"
+        android:paddingRight="@dimen/gridview_item_horizontal_margin"
+        android:background="#FFFFFF00"/>
+
+</LinearLayout>
